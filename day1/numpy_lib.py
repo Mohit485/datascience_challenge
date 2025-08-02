@@ -1,6 +1,14 @@
 import numpy as np
 m= np.array([1,2,4,5])
 print(m)
+#mean
+o=m.mean()
+#standard deviation
+e=m.std(m)
+print(o)
+print(e)
+print(m.min()) #min
+print(m.max()) #max
 n= m[1:3]
 print(n)
 f= m[1::]
@@ -17,7 +25,3 @@ g=np.linspace(1,6,5) #shows(start, ed, equal parts)
 print(u)
 print(d)
 print(g)
-o=np.mean(m)
-e=np.std(m)
-print(o)
-print(e)
